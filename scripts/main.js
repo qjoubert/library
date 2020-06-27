@@ -33,7 +33,7 @@ let library = [
   }
 ];
 
-if (!getLibrary() || getLibrary.length === 0) {
+if (!getLibrary() || getLibrary().length === 0) {
   setLibrary(library);
 }
 
