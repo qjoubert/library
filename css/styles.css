@@ -1,0 +1,56 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, .3);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, .2);
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  width: calc(33% - 2rem);
+}
+
+.card h2 {
+  text-align: center;
+}
+
+.card button {
+  box-sizing: border-box;
+  margin: 0 1rem .5rem;
+  width: calc(50% - 2rem);
+}
+
+#new-book-btn {
+  display: block;
+  font-size: 2rem;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+}
+
+form {
+  border: 1px solid rgba(0, 0, 0, .3);
+  margin: 1rem;
+  padding: 1rem;
+  width: 40%;
+}
+
+form input:not([type="radio"]), form button {
+  display: block;
+  margin: 1rem 2rem;
+  padding: .5rem 1rem;
+}
+
+form label:nth-child(4) {
+  margin-left: 2rem;
+}
